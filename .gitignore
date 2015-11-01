@@ -6,7 +6,11 @@ target/*
 .DS_STORE
 .idea/
 .idea/*
+<<<<<<< HEAD
 JoinItems.iml
+=======
+
+>>>>>>> 50c71231dd795c0e4d35b54f9b08211802871118
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 

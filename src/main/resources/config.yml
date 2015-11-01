@@ -1,0 +1,28 @@
+#
+# Join Items
+# By iSach.
+#
+# Main settings:
+Items-Settings:
+  Allow-Place: false # Allows users to interact with the object, like place a block, eat food, etc.
+  Allow-Move: false # Allows users to move the items in their inventory.
+  Allow-Drop: false # Allows users to drop the items.
+  Give-On-Respawn: true # Toggles giving items on respawn.
+  Drop-On-Death: false # Toggles dropping items on ground on death.
+
+# Here you can configure the items.
+# You can create new by copying Example and after modify as you want.
+Items:
+  Example: # Doesn't matter, just don't put twice the same.
+    command: 'server' # The command which will be executed (as the player). doesn't support bungee commands!
+    display-name: '&6&lServers Selector' # The item's display name.
+    lore: # The lore, as a list.
+      - '&1&lHello'
+      - '&2&lHow'
+      - '&3&lAre'
+      - '&4&lYou'
+    material: COMPASS # The material.
+    data: 0
+    amount: 1 # The amount.
+    slot: 1 # The slot of inventory. Player inventory is from 1 to 36.
+    give-on-join: true # Put true if you want the players to receive it on join, otherwise false.

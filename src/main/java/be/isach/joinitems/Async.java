@@ -5,8 +5,8 @@ import org.bukkit.Bukkit;
 /**
  * Created by Sacha on 19/10/15.
  *
- * Runs easily stuff in async cause Spigot
- * doesn't run on multiple threads lel
+ * Runs easily stuff in async cause 
+ * I am too lazy to type this each time lol
  *
  */
 public class Async {
